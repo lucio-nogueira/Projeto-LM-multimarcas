@@ -59,7 +59,7 @@ export const ProductCard = ({ id, name, image, price, oldPrice, category, onView
             {oldPrice && <span className="price-old">{oldPrice}</span>}
             <span className="price-new">{price}</span>
           </div>
-          <Button 
+            {/* <Button 
             variant="outline" 
             size="sm"
             onClick={() => onViewDetails(id)}
@@ -67,7 +67,7 @@ export const ProductCard = ({ id, name, image, price, oldPrice, category, onView
           >
             <Eye className="w-3 h-3 mr-1" />
             Ver Detalhes
-          </Button>
+          </Button>  */}
         </div>
       </div>
     </Card>

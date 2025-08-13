@@ -9,7 +9,7 @@ export const FloatingCartButton = () => {
   return (
     <Button
       onClick={handleWhatsAppClick}
-      className="fixed bottom-6 right-6 z-50 w-14 h-14 rounded-full bg-luxury hover:bg-luxury/90 text-luxury-foreground shadow-3d hover:shadow-3d-hover transition-all duration-300 hover:scale-110 animate-pulse"
+      className="fixed bottom-6 right-6 z-50 w-14 h-14 rounded-full bg-luxury hover:bg-luxury/90 text-luxury-foreground shadow-3d hover:shadow-3d-hover transition-all duration-2000 hover:scale-110"
       size="icon"
       aria-label="Comprar no WhatsApp"
     >

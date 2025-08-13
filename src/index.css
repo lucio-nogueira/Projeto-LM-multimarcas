@@ -137,7 +137,7 @@ All colors MUST be HSL.
 @layer components {
   .price-container { @apply flex items-baseline gap-2; }
   .price-old { text-decoration: line-through; color: hsl(var(--price-old)); font-size: 18px; }
-  .price-new { color: hsl(var(--price-new)); font-weight: 700; font-size: 28px; animation: price-pulse 1.5s ease-in-out infinite; }
+  .price-new { color: hsl(var(--price-new)); font-weight: 700; font-size: 20px; animation: price-pulse 1.5s ease-in-out infinite; margin-left: 20px; }
 }
 
 @keyframes price-pulse {

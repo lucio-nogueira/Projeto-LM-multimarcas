@@ -5,13 +5,13 @@ export const CatalogHeader = () => {
         <div className="text-center space-y-8">
           <div className="inline-block">
             <div className="text-6xl font-bold text-luxury tracking-tight drop-shadow-lg">
-              LM MULTIMARCAS
+              LM - MULTIMARCAS
             </div>
             <div className="h-1 bg-luxury w-full mt-2 shadow-3d"></div>
           </div>
           
           <h1 className="text-4xl md:text-5xl font-light text-foreground">
-            Catálogo Digital
+            Descubra a Elegância dos Relógios Premium
           </h1>
           
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto leading-relaxed">
